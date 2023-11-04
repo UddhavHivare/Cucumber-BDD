@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="10.575">
+    <testcase classname="Loin into Browserstack" name="usuccessful login into browserstack" time="4.308">
+        <failure message="Unable to establish websocket connection to http://localhost:57467/devtools/browser/3c0c63a7-a474-46f3-8103-62245af72d31&#10;Build info: version: '4.7.2', revision: '4d4020c3b7'&#10;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.remote.http.ConnectionFailedException"><![CDATA[Given I am on Browserstack home page........................................skipped
+When I am click on login button.............................................skipped
+Then I navigate to Login In page............................................skipped
+When I enter  username as "uddhavhivare@gmail.com"..........................skipped
+And I enter password as "Uddhav@1323".......................................skipped
+And I click on the Login button.............................................skipped
+But The user credentials are wrong..........................................skipped
+Then user display error message as please enter vaild username password.....skipped
+
+StackTrace:
+org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:57467/devtools/browser/3c0c63a7-a474-46f3-8103-62245af72d31
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
+	at org.openqa.selenium.devtools.Connection.<init>(Connection.java:78)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:50)
+	at stepDefinition.Hook.InitializeTest(Hook.java:24)
+]]></failure>
+    </testcase>
+    <testcase classname="Loin into Browserstack" name="usuccessful login into browserstack 2" time="2.764">
+        <failure message="Unable to establish websocket connection to http://localhost:57482/devtools/browser/dc407770-e383-41c3-a168-80279969369d&#10;Build info: version: '4.7.2', revision: '4d4020c3b7'&#10;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.remote.http.ConnectionFailedException"><![CDATA[Given I am on Browserstack home page........................................skipped
+When I am click on login button.............................................skipped
+Then I navigate to Login In page............................................skipped
+When I enter  username as "info@utkarshaaacademy.com".......................skipped
+And I enter password as "gujar21311"........................................skipped
+And I click on the Login button.............................................skipped
+But The user credentials are wrong..........................................skipped
+Then user display error message as please enter vaild username password.....skipped
+
+StackTrace:
+org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:57482/devtools/browser/dc407770-e383-41c3-a168-80279969369d
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
+	at org.openqa.selenium.devtools.Connection.<init>(Connection.java:78)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:50)
+	at stepDefinition.Hook.InitializeTest(Hook.java:24)
+]]></failure>
+    </testcase>
+    <testcase classname="Loin into Browserstack" name="unsuccessful login into browserstack" time="2.88">
+        <failure message="Unable to establish websocket connection to http://localhost:57499/devtools/browser/dcbb3bdc-1f91-40c3-a133-77e143fdd173&#10;Build info: version: '4.7.2', revision: '4d4020c3b7'&#10;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.remote.http.ConnectionFailedException"><![CDATA[Given I am on Browserstack home page........................................skipped
+When I am click on login button.............................................skipped
+Then I navigate to Login In page............................................skipped
+When I enter  username as uddhavhivare1@gmial.com...........................skipped
+And I enter password as Uddhav@1234.........................................skipped
+And I click on the Login button.............................................skipped
+But The user credentials are wrong..........................................skipped
+Then user display error message as please enter vaild username password.....skipped
+
+StackTrace:
+org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:57499/devtools/browser/dcbb3bdc-1f91-40c3-a133-77e143fdd173
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
+	at org.openqa.selenium.devtools.Connection.<init>(Connection.java:78)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:50)
+	at stepDefinition.Hook.InitializeTest(Hook.java:24)
+]]></failure>
+    </testcase>
+</testsuite>
