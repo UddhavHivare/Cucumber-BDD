@@ -1,0 +1,999 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3988900,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 996300,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinition.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I am on Browserstack home page",
+            "match": {
+              "location": "stepDefinition.login_Step.i_am_on_browserstack_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinition.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinition.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "I am click on login button",
+            "match": {
+              "location": "stepDefinition.login_Step.i_am_click_on_login_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinition.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 995500,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2991000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinition.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "I navigate to Login In page",
+            "match": {
+              "location": "stepDefinition.login_Step.i_navigate_to_login_in_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinition.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-25T14:45:33.045Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:57467/devtools/browser/3c0c63a7-a474-46f3-8103-62245af72d31\nBuild info: version: \u00274.7.2\u0027, revision: \u00274d4020c3b7\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.4.1\u0027\nDriver info: driver.version: ChromeDriver\r\n\tat org.openqa.selenium.remote.http.netty.NettyWebSocket.\u003cinit\u003e(NettyWebSocket.java:102)\r\n\tat org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)\r\n\tat org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)\r\n\tat org.openqa.selenium.devtools.Connection.\u003cinit\u003e(Connection.java:78)\r\n\tat org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)\r\n\tat java.base/java.util.Optional.map(Optional.java:260)\r\n\tat org.openqa.selenium.chromium.ChromiumDriver.\u003cinit\u003e(ChromiumDriver.java:114)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:82)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:50)\r\n\tat stepDefinition.Hook.InitializeTest(Hook.java:24)\r\n",
+              "duration": 4088723300,
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepDefinition.Hook.InitializeTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "usuccessful login into browserstack",
+        "description": "",
+        "id": "loin-into-browserstack;usuccessful-login-into-browserstack;;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because \"Base.TestBase.driver\" is null\r\n\tat stepDefinition.Hook.TearDownTest(Hook.java:37)\r\n",
+              "duration": 2991400,
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepDefinition.Hook.TearDownTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinition.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 25,
+            "name": "I enter  username as \"uddhavhivare@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"uddhavhivare@gmail.com\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinition.CommonSteps.i_enter_username_as(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinition.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinition.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 26,
+            "name": "I enter password as \"Uddhav@1323\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Uddhav@1323\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinition.CommonSteps.i_enter_password_as(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 997800,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinition.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinition.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 27,
+            "name": "I click on the Login button",
+            "match": {
+              "location": "stepDefinition.login_Step.i_click_on_the_login_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinition.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998300,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997300,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinition.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 28,
+            "name": "The user credentials are wrong",
+            "match": {
+              "location": "stepDefinition.login_Step.the_user_credentials_are_wrong()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 997300,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinition.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "But "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinition.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 29,
+            "name": "user display error message as please enter vaild username password",
+            "match": {
+              "location": "stepDefinition.login_Step.user_display_error_message_as_please_enter_vaild_username_password()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinition.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@end2end"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999500,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinition.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I am on Browserstack home page",
+            "match": {
+              "location": "stepDefinition.login_Step.i_am_on_browserstack_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 997800,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinition.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 998800,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinition.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "I am click on login button",
+            "match": {
+              "location": "stepDefinition.login_Step.i_am_click_on_login_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinition.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 4995800,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinition.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "I navigate to Login In page",
+            "match": {
+              "location": "stepDefinition.login_Step.i_navigate_to_login_in_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 996900,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinition.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-25T14:45:37.424Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:57482/devtools/browser/dc407770-e383-41c3-a168-80279969369d\nBuild info: version: \u00274.7.2\u0027, revision: \u00274d4020c3b7\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.4.1\u0027\nDriver info: driver.version: ChromeDriver\r\n\tat org.openqa.selenium.remote.http.netty.NettyWebSocket.\u003cinit\u003e(NettyWebSocket.java:102)\r\n\tat org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)\r\n\tat org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)\r\n\tat org.openqa.selenium.devtools.Connection.\u003cinit\u003e(Connection.java:78)\r\n\tat org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)\r\n\tat java.base/java.util.Optional.map(Optional.java:260)\r\n\tat org.openqa.selenium.chromium.ChromiumDriver.\u003cinit\u003e(ChromiumDriver.java:114)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:82)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:50)\r\n\tat stepDefinition.Hook.InitializeTest(Hook.java:24)\r\n",
+              "duration": 2698666000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepDefinition.Hook.InitializeTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "usuccessful login into browserstack",
+        "description": "",
+        "id": "loin-into-browserstack;usuccessful-login-into-browserstack;;3",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because \"Base.TestBase.driver\" is null\r\n\tat stepDefinition.Hook.TearDownTest(Hook.java:37)\r\n",
+              "duration": 999100,
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepDefinition.Hook.TearDownTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinition.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 25,
+            "name": "I enter  username as \"info@utkarshaaacademy.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"info@utkarshaaacademy.com\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinition.CommonSteps.i_enter_username_as(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinition.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinition.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 26,
+            "name": "I enter password as \"gujar21311\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"gujar21311\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinition.CommonSteps.i_enter_password_as(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinition.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinition.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 27,
+            "name": "I click on the Login button",
+            "match": {
+              "location": "stepDefinition.login_Step.i_click_on_the_login_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1019800,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinition.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 975300,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinition.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 28,
+            "name": "The user credentials are wrong",
+            "match": {
+              "location": "stepDefinition.login_Step.the_user_credentials_are_wrong()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 997200,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinition.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "But "
+          },
+          {
+            "result": {
+              "duration": 996300,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinition.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 29,
+            "name": "user display error message as please enter vaild username password",
+            "match": {
+              "location": "stepDefinition.login_Step.user_display_error_message_as_please_enter_vaild_username_password()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinition.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@end2end"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Loin into Browserstack",
+    "description": " Description: I want to use this template for my login into browserstack portal file ",
+    "id": "loin-into-browserstack",
+    "keyword": "Feature",
+    "uri": "file:Features/Login_example_Test.feature",
+    "tags": [
+      {
+        "name": "@end2end",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 993200,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinition.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I am on Browserstack home page",
+            "match": {
+              "location": "stepDefinition.login_Step.i_am_on_browserstack_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 6989700,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinition.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 998100,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinition.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "I am click on login button",
+            "match": {
+              "location": "stepDefinition.login_Step.i_am_click_on_login_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1006500,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinition.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 988000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinition.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "I navigate to Login In page",
+            "match": {
+              "location": "stepDefinition.login_Step.i_navigate_to_login_in_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinition.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-25T14:45:40.221Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:57499/devtools/browser/dcbb3bdc-1f91-40c3-a133-77e143fdd173\nBuild info: version: \u00274.7.2\u0027, revision: \u00274d4020c3b7\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.4.1\u0027\nDriver info: driver.version: ChromeDriver\r\n\tat org.openqa.selenium.remote.http.netty.NettyWebSocket.\u003cinit\u003e(NettyWebSocket.java:102)\r\n\tat org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)\r\n\tat org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)\r\n\tat org.openqa.selenium.devtools.Connection.\u003cinit\u003e(Connection.java:78)\r\n\tat org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)\r\n\tat java.base/java.util.Optional.map(Optional.java:260)\r\n\tat org.openqa.selenium.chromium.ChromiumDriver.\u003cinit\u003e(ChromiumDriver.java:114)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:82)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:50)\r\n\tat stepDefinition.Hook.InitializeTest(Hook.java:24)\r\n",
+              "duration": 2823453600,
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepDefinition.Hook.InitializeTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "unsuccessful login into browserstack",
+        "description": "",
+        "id": "loin-into-browserstack;unsuccessful-login-into-browserstack",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because \"Base.TestBase.driver\" is null\r\n\tat stepDefinition.Hook.TearDownTest(Hook.java:37)\r\n",
+              "duration": 1008700,
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepDefinition.Hook.TearDownTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 998300,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinition.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 24,
+            "name": "I enter  username as uddhavhivare1@gmial.com",
+            "match": {
+              "location": "stepDefinition.login_Step.i_enter_username_as_uddhavhivare1_gmial_com()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 998100,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinition.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 996400,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinition.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 25,
+            "name": "I enter password as Uddhav@1234",
+            "match": {
+              "location": "stepDefinition.login_Step.i_enter_password_as_uddhav_1234()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 996800,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinition.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997600,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinition.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 26,
+            "name": "I click on the Login button",
+            "match": {
+              "location": "stepDefinition.login_Step.i_click_on_the_login_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 997800,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinition.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 994100,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1011100,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinition.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 27,
+            "name": "The user credentials are wrong",
+            "match": {
+              "location": "stepDefinition.login_Step.the_user_credentials_are_wrong()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinition.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "But "
+          },
+          {
+            "result": {
+              "duration": 997800,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997200,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinition.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 28,
+            "name": "user display error message as please enter vaild username password",
+            "match": {
+              "location": "stepDefinition.login_Step.user_display_error_message_as_please_enter_vaild_username_password()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinition.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@end2end"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Loin into Browserstack",
+    "description": " Description: I want to use this template for my login into browserstack portal file ",
+    "id": "loin-into-browserstack",
+    "keyword": "Feature",
+    "uri": "file:Features/login.feature",
+    "tags": [
+      {
+        "name": "@end2end",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
